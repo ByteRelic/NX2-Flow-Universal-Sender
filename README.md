@@ -32,4 +32,5 @@ Olmectron — [NX2 Flow](https://github.com/Olmectron/nx2-flow) and [Toronja](ht
 
 ## License
 
-Pending review of applicable licensing requirements. No open-source license has been selected yet.
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
