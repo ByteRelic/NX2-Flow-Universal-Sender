@@ -29,7 +29,19 @@ Early beta. The original command-line prototype completed a 16.63 GiB transfer w
 ## Credits
 
 Olmectron — [NX2 Flow](https://github.com/Olmectron/nx2-flow) and [Toronja](https://github.com/Olmectron/toronja). This is an independent, unofficial client, not affiliated with those projects or Nintendo.
+## Legal Disclaimer
 
+NX2 Flow Universal Sender is an independently developed file-transfer utility intended for lawful homebrew, personal file management, and authorized backups.
+
+- This project is not affiliated with, endorsed by, or sponsored by Nintendo, Olmectron, or their respective projects.
+- This software does not include copyrighted games, proprietary firmware, encryption keys, or Nintendo assets.
+- Users are responsible for ensuring their use of this software complies with applicable laws and intellectual property rights.
+- This project does not encourage or endorse piracy, copyright infringement, or unauthorized distribution of copyrighted material.
+- All trademarks belong to their respective owners.
+- This software is provided "AS IS," without warranty of any kind, subject to the terms of the MIT License.
+- To the extent permitted by applicable law, the developer assumes no liability for data loss, hardware damage, account restrictions, or other damages arising from use of this software.
+
+Copyright (c) 2026 ByteRelic.
 ## License
 
 This project is licensed under the MIT License.
