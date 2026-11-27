@@ -1,6 +1,22 @@
 # NX2 Flow Universal Sender
 
 Unofficial Windows desktop client for the Toronja transfer protocol supported by NX2 Flow. Transfers existing NUP files over a local network; compatible receivers handle FAT32 splitting. This project does not convert files or include games or keys.
+## Why This Project Exists
+
+FAT32 has a maximum individual file size of 4 GiB minus one byte, making it impossible to directly copy larger NUP files onto FAT32-formatted SD cards.
+
+NX2 Flow Universal Sender simplifies this process by transmitting large NUP files wirelessly to the NX2 Flow receiver, which automatically handles file splitting.
+
+### Benefits
+
+- Transfer NUP files larger than 4 GiB.
+- No manual file splitting required.
+- No need to remove the SD card.
+- No need to reformat the SD card.
+- Live transfer progress, speed and estimated completion time.
+- CRC32 transfer integrity verification.
+
+The sender uses the existing Toronja transfer protocol and NX2 Flow's receiver-side splitting functionality, providing a convenient standalone Windows interface for the entire transfer process.
 
 ## Usage
 
