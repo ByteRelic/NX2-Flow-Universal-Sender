@@ -1,2 +1,35 @@
-# NX2-Flow-Universal-Sender
-Unofficial Windows GUI for wireless NUP transfers to NX2 Flow, with automatic receiver-side FAT32 splitting, transfer queues and CRC32 verification.
+# NX2 Flow Universal Sender
+
+Unofficial Windows desktop client for the Toronja transfer protocol supported by NX2 Flow. Transfers existing NUP files over a local network; compatible receivers handle FAT32 splitting. This project does not convert files or include games or keys.
+
+## Usage
+
+1. Open the receiver in NX2 Flow on your console.
+2. Connect the PC and console to the same trusted local network.
+3. Open NX2FlowSender.exe (when available in Releases), enter the receiver IP and leave the port at 28302 unless configured differently.
+4. Browse for files you are authorized to use and start the transfer. Check the CRC32 result.
+
+The IP is remembered locally. The protocol is not encrypted; use a trusted network. Existing destination files may be replaced.
+
+## Build on Windows
+
+Install Python 3.14 with Tkinter, then run from this directory:
+
+```cmd
+py -3.14 -m pip install -r requirements-build.txt
+py -3.14 -m PyInstaller --clean --noconfirm NX2FlowSender.spec
+```
+
+The executable appears in `dist/`. No extra Python packages are required to run the source itself.
+
+## Status
+
+Early beta. The original command-line prototype completed a 16.63 GiB transfer with matching CRC32. The original GUI connected and began a transfer. This revised build still requires Windows and console testing. No automatic resume or conversion is implemented.
+
+## Credits
+
+Olmectron — [NX2 Flow](https://github.com/Olmectron/nx2-flow) and [Toronja](https://github.com/Olmectron/toronja). This is an independent, unofficial client, not affiliated with those projects or Nintendo.
+
+## License
+
+Pending review of applicable licensing requirements. No open-source license has been selected yet.
